@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+}
+
+header {
+    overflow: auto;
+}
+
+header>img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+header>nav {
+    float: right;
+    padding: 20px 0 19px 0;
+}
+
+header>nav>a {
+    color: black;
+    font-size: 'Sans Serif';
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+header>nav>a:hover {
+    background-color: black;
+    color: white;
+}
+
+.homemade {
+    background-image: url('./soup.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white
+}
+
+.homemade>h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 6vw;
+    font-weight: normal;
+    padding: 50vh 0 3vh 10vw;
+    text-shadow: 0 0 10px black;
+}
+
+.homemade>p {
+    font-family: sans-serif;
+    padding-left: 10vw;
+}
+
+.normalLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fe7606;
+}
+
+#homemade_learn_more {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: sans-serif;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fe7606;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fe7606;
+    margin: 5vh 0 7vh 10vw;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#homemade_learn_more:hover {
+    color: white;
+    background-color: #fe7606;
+}
