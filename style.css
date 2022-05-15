@@ -29,7 +29,7 @@ header>nav>a:hover {
 }
 
 .homemade {
-    background-image: url('./soup.jpg');
+    background-image: url('./images/soup.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: white
@@ -59,9 +59,7 @@ header>nav>a:hover {
     text-decoration: none;
     background-color: transparent;
     font-family: sans-serif;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #fe7606;
+    border: 3px solid #fe7606;
     border-radius: 30px;
     padding: 10px;
     font-weight: bold;
@@ -73,4 +71,60 @@ header>nav>a:hover {
 #homemade_learn_more:hover {
     color: white;
     background-color: #fe7606;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 3vw;
+    padding: 0 3vw;
+}
+
+.menu img {
+    max-width: 100%;
+    height: 60vh;
+}
+
+.menu>#menu2 {
+    background-color: #fcdb03;
+    padding: 3rem;
+}
+
+.menu>#menu2>h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 8vw;
+}
+
+.menu>#menu2>p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 2.15rem;
+}
+
+.menu>#menu2>#menu_learn_more {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.menu>#menu2>#menu_learn_more:hover {
+    background-color: black;
+    color: #fcdb03;
+}
+
+.onlineCooking {
+    background-image: url('./images/online-cooking.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
