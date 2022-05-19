@@ -37,10 +37,11 @@ window.onload = () => {
         //console.log("aidi");
         const code = event.key[0].charCodeAt(0) - '0'.charCodeAt(0);
         //console.log(code);
-        recipeName.style.backgroundColor = `rgb(${code * 23 % 255}, ${code * 12 % 255}, ${code * 123 % 255})`;
+        cssObject = getComputedStyle(event.target)
+        event.target.style.backgroundColor = `rgb(${code * parseInt(cssObject.width, 10) * 23 % 255}, ${code * 12 % 255}, ${code * parseInt(cssObject.height, 10) * 123 % 255})`;
         // console.log(recipeName.style.color);
         event.stopPropagation();
-        console.log(getComputedStyle(recipeName));
+        console.log(cssObject.width, cssObject.height);
     });
 
     postButton = document.getElementById('post');
