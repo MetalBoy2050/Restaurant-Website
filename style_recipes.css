@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+}
+
+#time {
+    position: fixed;
+    font-style: 'Robot', sans-serif;
+    font-size: 2rem;
+}
+
+header {
+    overflow: auto;
+}
+
+header>img {
+    max-width: 60px;
+    max-height: 60px;
+    animation: idk 1s;
+}
+
+@keyframes idk {
+    0% {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    50% {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    100% {
+        max-width: 60px;
+        max-height: 60px;
+    }
+}
+
+header>nav {
+    float: right;
+    padding: 20px 0 19px 0;
+}
+
+header>nav>a {
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+header>nav>a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.first-div {
+    background-color: #F1BF98;
+    padding: 100px 200px 100px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-div>h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.first-div>h2::before {
+    content: "1";
+    font-size: 3rem;
+    padding: 10px;
+    margin-right: 30px;
+    background-color: #3F4739;
+    color: white;
+    border-radius: 25px;
+}
+
+.first-div>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 150px;
+    box-shadow: 0 0 15px black;
+}
+
+.first-div>p {
+    display: inline-block;
+    width: 75%;
+    font-size: 1.15rem;
+    line-height: 30px;
+}
+
+.second-div {
+    background-color: #E1F4CB;
+    padding: 100px 200px 100px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-div>h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.second-div>h2::before {
+    content: "1";
+    font-size: 3rem;
+    padding: 10px;
+    margin-right: 30px;
+    background-color: #717568;
+    color: white;
+    border-radius: 25px;
+}
+
+.second-div>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 150px;
+    box-shadow: 0 0 15px black;
+}
+
+.second-div>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 150px;
+    box-shadow: 0 0 15px black;
+}
+
+.second-div>p {
+    display: inline-block;
+    width: 75%;
+    font-size: 1.15rem;
+    line-height: 30px;
+}
+
+.third-div {
+    background-color: #BACBA9;
+    padding: 100px 200px 100px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.third-div>h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.third-div>h2::before {
+    content: "1";
+    font-size: 3rem;
+    padding: 10px;
+    margin-right: 30px;
+    background-color: #F1BF98;
+    color: black;
+    border-radius: 25px;
+}
+
+.third-div>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 150px;
+    box-shadow: 0 0 15px black;
+}
+
+.third-div>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 150px;
+    box-shadow: 0 0 15px black;
+}
+
+.third-div>p {
+    display: inline-block;
+    width: 75%;
+    font-size: 1.15rem;
+    line-height: 30px;
+}
+
+.fourth-div {
+    background-color: #717568;
+    padding: 100px 200px 100px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fourth-div>h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.fourth-div>h2::before {
+    content: "1";
+    font-size: 3rem;
+    padding: 10px;
+    margin-right: 30px;
+    background-color: #E1F4CB;
+    color: black;
+    border-radius: 25px;
+}
+
+.fourth-div>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 150px;
+    box-shadow: 0 0 15px black;
+}
+
+.fourth-div>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 150px;
+    box-shadow: 0 0 15px black;
+}
+
+.fourth-div>p {
+    display: inline-block;
+    width: 75%;
+    font-size: 1.15rem;
+    line-height: 30px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 200px;
+    background-color: #478ac9;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+footer>h3 {
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+footer>p {
+    padding: 2px 0;
+}
